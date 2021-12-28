@@ -1,0 +1,159 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Title Section */
+.t1 {
+  background-color: #9145B6;
+}
+
+.title-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  /* font-family: "Montserrat", sans-serif; */
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* Title Image  */
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+/* Features Section */
+.feature-alpha {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-item-heading {
+  font-weight: bold;
+}
+
+.feature-item-body {
+  color: #8F8F8F;
+}
+
+.feature-icon {
+  color: #BC8CF2;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #9145B6;
+}
+
+/* Testimonial & Press Sections */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.press {
+  background-color: #BC8CF2;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-alpha {
+  text-align: center;
+  background-color: #BC8CF2;
+  color: white;
+}
+
+.testimonial-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+.pricing-alpha {
+  text-align: center;
+}
+
+.pricing-column {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.pricing-heading {
+  font-weight: 900;
+}
+
+/* Call-To-Action */
+.Call-To-Action {
+  text-align: center;
+  background-color: #BC8CF2;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+/* Footer */
+.footer-alpha {
+  text-align: center;
+}
+
+.footer-icons {
+  margin: 10px 12px;
+}
+
+/* Media Query */
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  body {
+    text-align: center;
+  }
+}
